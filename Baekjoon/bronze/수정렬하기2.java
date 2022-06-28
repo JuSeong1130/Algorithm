@@ -11,8 +11,7 @@ import java.util.Collections;
 public class 수정렬하기2 {
 
         public static void main(String[] args) throws IOException {
-
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             StringBuilder sb = new StringBuilder();
 
             int N = Integer.parseInt(br.readLine());
@@ -32,4 +31,7 @@ public class 수정렬하기2 {
             System.out.println(sb);
         }
 
+
 }
+
+
