@@ -33,6 +33,8 @@ public class 문자열압축 {
                      prev=now;
                  }
              }
+             //혹시모를 남아있는 값들이 안들어가있을수 있기때문에 넣어줌
+             //ex) aaaabbbb를 3으로한다면 aaaaabb까지만들어가게됨 왜냐하면 length가 8인데 3+3+3이되게되서 9가나오게되므로 못들어가는게있음
              if(str.length()<s.length()){
                  res+=s.substring(str.length(),s.length());
              }
